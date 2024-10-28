@@ -1,1 +1,101 @@
 /* Soluzione qui */
+@media screen and (min-width: 768px){
+  #topbar {
+    justify-content: flex-start;
+  }
+  .container {
+    padding: 30px;
+  }
+  .recipe .recipe-origin{
+    display: inline-block;
+  }
+  .recipe-name{
+    font-size: 2rem;
+    font-family: nerko one;
+  }
+  body{
+    font-family: monserrat;
+  }
+  .quick-notes ul li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  .btn{
+    padding: 15px 50px;
+  }
+  .ads{
+    display: inline-block;
+  }
+  .clearfix img{
+    float: inline-start;
+    margin-right: 10px;
+  }
+}
+
+
+@media screen and (min-width: 576px){
+  #topbar {
+    justify-content: flex-start;
+  }
+  .container {
+    padding: 30px;
+  }
+  .recipe .recipe-origin{
+    display: inline-block;
+  }
+  .recipe-name{
+    font-size: 2rem;
+    font-family: nerko one;
+  }
+  body{
+    font-family: monserrat;
+  }
+  .quick-notes ul li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  .btn{
+    padding: 10px 30px;
+  }
+  .ads{
+    display: inline-block;
+  }
+  .clearfix img{
+    float: inline-start;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .recipe-name{
+    font-size: 2.5rem;
+    font-family: nerko one;
+  }
+  .recipe-card{
+    display: flex;
+  }
+  .recipe-video{
+    width: 60%;
+  }
+  .recipe-info{
+    width: 40%;
+  }
+  .btn{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+  }
+  .social-networks .label{
+    display: block;
+    margin-left: 5px;
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer address{
+    text-align: left;
+  }
+}
